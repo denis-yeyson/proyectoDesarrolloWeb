@@ -1,0 +1,1427 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="imcApp">
+
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <title>Clinica Univercitaria </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap Stilos -->
+    <!-- <link href="style.css" rel="stylesheet">
+    <link href="css/owl-carousel.css" rel="stylesheet">
+    <link href="css/flexslider.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/all.css">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <!-- <link href="css/prettyPhoto.css" rel="stylesheet"> -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,900' rel='stylesheet'
+        type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,700,800,500,300' rel='stylesheet' type='text/css'>
+
+    <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+    <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.11/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://code.angularjs.org/1.3.5/angular.min.js"></script>
+
+    <script src="js/modernizr.custom.js"></script>
+
+</head>
+
+
+
+<body data-spy="scroll" data-target=".navbar" data-offset="75" ng-controller="ImcController">
+
+    <section id="home" class="slider-wrapper">
+        <div class="tp-banner-container">
+            <div class="tp-banner">
+                <ul>
+                    <!-- SLIDE  -->
+                    <li data-transition="fade" data-slotamount="5" data-masterspeed="700">
+                        <!-- MAIN IMAGE -->
+                        <img src="demos/sliderbg_05.jpg" alt="slidebg1" data-bgfit="cover"
+                            data-bgposition="center center" data-bgrepeat="no-repeat">
+
+
+                        <!-- LAYERS -->
+                        <div class="tp-caption big_title  customin customout start" data-x="center" data-hoffset="0"
+                            data-y="50"
+                            data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-speed="1000" data-start="500" data-easing="Back.easeInOut" data-endspeed="300">
+                            <h1> <span>Clinica </span> Univercitaria<br></h1>
+                        </div>
+
+                        <!-- LAYERS -->
+                        <div class="tp-caption small_title customin customout start" data-x="center" data-hoffset="0"
+                            data-y="320"
+                            data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-speed="2200" data-start="500" data-easing="Back.easeInOut" data-endspeed="300">Se
+                            encuentran siempre alertas para cualquier tipo de situaciones;<br> están distribuidos segun
+                            sus especialidades,<br>
+                        </div>
+
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption slider_menu fade" data-x="left" data-y="center" data-speed="800"
+                            data-start="400" data-easing="Power4.easeOut" data-endspeed="300"
+                            data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6"><a
+                                href="#">Inicio</a>
+                        </div>
+
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption slider_menu sfl" data-x="left" data-hoffset="120" data-y="bottom"
+                            data-speed="800" data-start="2000" data-easing="Power4.easeOut" data-endspeed="300"
+                            data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6"><a data-scroll
+                                href="#galeria">Galeria</a>
+                        </div>
+
+                        <!-- LAYER NR. 3 -->
+                        <div class="tp-caption slider_menu skewfromleft" data-x="right" data-hoffset="-120"
+                            data-y="bottom" data-speed="800" data-start="3000" data-easing="Power4.easeOut"
+                            data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off"
+                            style="z-index: 6"><a data-scroll href="#contact">Contactenos</a>
+                        </div>
+
+                        <!-- LAYER NR. 4 -->
+                        <div class="tp-caption slider_menu sft" data-x="right" data-y="center" data-speed="800"
+                            data-start="4000" data-easing="Power4.easeOut" data-endspeed="300"
+                            data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6"><a data-scroll
+                                href="#services">Servicios</a>
+                        </div>
+
+                        <!-- LAYER NR. 5 -->
+                        <div class="tp-caption slider_menu lft" data-x="right" data-hoffset="-120" data-y="top"
+                            data-speed="800" data-start="5000" data-easing="Power4.easeOut" data-endspeed="300"
+                            data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6"><a data-scroll
+                                href="#portfolio">Tenología</a>
+                        </div>
+
+                        <!-- LAYER NR. 6 -->
+                        <div class="tp-caption slider_menu sfr" data-x="left" data-hoffset="120" data-y="top"
+                            data-speed="800" data-start="6000" data-easing="Power4.easeOut" data-endspeed="300"
+                            data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6"><a data-scroll
+                                href="#aboutus">Nosotros</a>
+                        </div>
+
+                        <!-- LAYERS -->
+                        <div class="tp-caption small_title customin customout start" data-x="center" data-hoffset="0"
+                            data-y="400"
+                            data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-speed="2200" data-start="6400" data-easing="Back.easeInOut" data-endspeed="300"><a
+                                data-scroll href="#contact" title="" class="btn btn-primary trans-btn">Contáctenos</a>
+                        </div>
+
+                    </li>
+                    <!-- SLIDE  -->
+                    <li data-transition="fade" data-slotamount="5" data-masterspeed="700">
+                        <!-- MAIN IMAGE -->
+                        <img src="demos/sliderbg_07.jpg" alt="slidebg1" data-bgfit="cover"
+                            data-bgposition="center center" data-bgrepeat="no-repeat">
+
+
+                        <!-- LAYERS -->
+                        <div class="tp-caption big_title2 customin customout start" data-x="center" data-hoffset="0"
+                            data-y="90"
+                            data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-speed="1000" data-start="500" data-easing="Back.easeInOut" data-endspeed="300">
+                            <h1><span>Bienvenidos</span>, a la clinica <br></h1>
+                        </div>
+
+                        <!-- LAYERS -->
+                        <div class="tp-caption small_title customin customout start" data-x="center" data-hoffset="0"
+                            data-y="290"
+                            data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-speed="2200" data-start="500" data-easing="Back.easeInOut" data-endspeed="300">Ubicado
+                            a solo media cuadra de la municipalidad los Olivos,<br> cuenta con mas 35 especialidades
+                            medicas distribuidas en toda la clinica..
+                        </div>
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption slider_menu fade" data-x="left" data-y="center" data-speed="800"
+                            data-start="400" data-easing="Power4.easeOut" data-endspeed="300"
+                            data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6"><a
+                                href="#">Inicio</a>
+                        </div>
+
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption slider_menu sfl" data-x="left" data-hoffset="120" data-y="bottom"
+                            data-speed="800" data-start="2000" data-easing="Power4.easeOut" data-endspeed="300"
+                            data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6"><a data-scroll
+                                href="#galeria">Galeria</a>
+                        </div>
+
+                        <!-- LAYER NR. 3 -->
+                        <div class="tp-caption slider_menu skewfromleft" data-x="right" data-hoffset="-120"
+                            data-y="bottom" data-speed="800" data-start="3000" data-easing="Power4.easeOut"
+                            data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off"
+                            style="z-index: 6"><a data-scroll href=#contact>Contactenos</a>
+                        </div>
+
+                        <!-- LAYER NR. 4 -->
+                        <div class="tp-caption slider_menu sft" data-x="right" data-y="center" data-speed="800"
+                            data-start="4000" data-easing="Power4.easeOut" data-endspeed="300"
+                            data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6"><a data-scroll
+                                href="#services">Servicios</a>
+                        </div>
+
+                        <!-- LAYER NR. 5 -->
+                        <div class="tp-caption slider_menu lft" data-x="right" data-hoffset="-120" data-y="top"
+                            data-speed="800" data-start="5000" data-easing="Power4.easeOut" data-endspeed="300"
+                            data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6"><a data-scroll
+                                href="#portfolio">Técnologia</a>
+                        </div>
+
+                        <!-- LAYER NR. 6 -->
+                        <div class="tp-caption slider_menu sfr" data-x="left" data-hoffset="120" data-y="top"
+                            data-speed="800" data-start="6000" data-easing="Power4.easeOut" data-endspeed="300"
+                            data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6"><a data-scroll
+                                href="#aboutus">Nosotros</a>
+                        </div>
+
+
+                        <!-- LAYERS -->
+                        <div class="tp-caption small_title customin customout start" data-x="center" data-hoffset="0"
+                            data-y="400"
+                            data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-speed="2200" data-start="6400" data-easing="Back.easeInOut" data-endspeed="300"><a
+                                data-scroll href="admin/reservation.php" title=""
+                                class="btn btn-primary trans-btn">¡Reserva Aquí!</a>
+                        </div>
+
+                    </li>
+
+                    <!-- SLIDE  -->
+                    <li data-transition="fade" data-slotamount="5" data-masterspeed="700">
+                        <!-- MAIN IMAGE -->
+                        <img src="demos/sliderbg_06.jpg" alt="slidebg1" data-bgfit="cover"
+                            data-bgposition="center center" data-bgrepeat="no-repeat">
+
+
+                        <!-- LAYERS -->
+                        <div class="tp-caption big_title2 customin customout start" data-x="center" data-hoffset="0"
+                            data-y="90"
+                            data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-speed="1000" data-start="500" data-easing="Back.easeInOut" data-endspeed="300">
+                            <h1>La <span> mejor atencion </span> que te <br> <span>mereces</span></h1>
+                        </div>
+
+                        <!-- LAYERS -->
+                        <div class="tp-caption small_title customin customout start" data-x="center" data-hoffset="0"
+                            data-y="290"
+                            data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-speed="2200" data-start="500" data-easing="Back.easeInOut" data-endspeed="300">Equipado
+                            con la ultima tecnologia en medicina.
+                        </div>
+
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption slider_menu fade" data-x="left" data-y="center" data-speed="800"
+                            data-start="400" data-easing="Power4.easeOut" data-endspeed="300"
+                            data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6"><a
+                                href="#">Inicio</a>
+                        </div>
+
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption slider_menu sfl" data-x="left" data-hoffset="120" data-y="bottom"
+                            data-speed="800" data-start="2000" data-easing="Power4.easeOut" data-endspeed="300"
+                            data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6"><a data-scroll
+                                href="#galeria">Galeria</a>
+                        </div>
+
+                        <!-- LAYER NR. 3 -->
+                        <div class="tp-caption slider_menu skewfromleft" data-x="right" data-hoffset="-120"
+                            data-y="bottom" data-speed="800" data-start="3000" data-easing="Power4.easeOut"
+                            data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off"
+                            style="z-index: 6"><a data-scroll href="#contact">Contactenos</a>
+                        </div>
+
+                        <!-- LAYER NR. 4 -->
+                        <div class="tp-caption slider_menu sft" data-x="right" data-y="center" data-speed="800"
+                            data-start="4000" data-easing="Power4.easeOut" data-endspeed="300"
+                            data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6"><a data-scroll
+                                href="#services">Servicios</a>
+                        </div>
+
+                        <!-- LAYER NR. 5 -->
+                        <div class="tp-caption slider_menu lft" data-x="right" data-hoffset="-120" data-y="top"
+                            data-speed="800" data-start="5000" data-easing="Power4.easeOut" data-endspeed="300"
+                            data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6"><a data-scroll
+                                href="#portfolio">Técnologia</a>
+                        </div>
+
+                        <!-- LAYER NR. 6 -->
+                        <div class="tp-caption slider_menu sfr" data-x="left" data-hoffset="120" data-y="top"
+                            data-speed="800" data-start="6000" data-easing="Power4.easeOut" data-endspeed="300"
+                            data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6"><a data-scroll
+                                href="#aboutus">Nosotros</a>
+                        </div>
+
+
+                        <!-- LAYERS -->
+                        <div class="tp-caption small_title customin customout start" data-x="center" data-hoffset="0"
+                            data-y="400"
+                            data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-speed="2200" data-start="6400" data-easing="Back.easeInOut" data-endspeed="300"><a
+                                href="admin/reservation.php" title="" class="btn btn-primary trans-btn">¡Reserva tu cita
+                                aquí!</a>
+                        </div>
+                    </li>
+
+                    <!-- SLIDE  -->
+                    <li data-transition="fade" data-slotamount="5" data-masterspeed="700">
+                        <!-- MAIN IMAGE -->
+                        <img src="demos/sliderbg_08.jpg" alt="slidebg1" data-bgfit="cover"
+                            data-bgposition="center center" data-bgrepeat="no-repeat">
+
+
+                        <!-- LAYERS -->
+                        <div class="tp-caption big_title2 customin customout start" data-x="center" data-hoffset="0"
+                            data-y="90"
+                            data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-speed="1000" data-start="500" data-easing="Back.easeInOut" data-endspeed="300">
+                            <h1>Con el<span>mejor </span> plantel de <br> <span>Profecionales</span></h1>
+                        </div>
+
+                        <!-- LAYERS -->
+                        <div class="tp-caption small_title customin customout start" data-x="center" data-hoffset="0"
+                            data-y="290"
+                            data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-speed="2200" data-start="500" data-easing="Back.easeInOut" data-endspeed="300">Plena
+                            confiansa en todas las intervenciones.
+                        </div>
+
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption slider_menu fade" data-x="left" data-y="center" data-speed="800"
+                            data-start="400" data-easing="Power4.easeOut" data-endspeed="300"
+                            data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6"><a
+                                href="#">Inicio</a>
+                        </div>
+
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption slider_menu sfl" data-x="left" data-hoffset="120" data-y="bottom"
+                            data-speed="800" data-start="2000" data-easing="Power4.easeOut" data-endspeed="300"
+                            data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6"><a data-scroll
+                                href="#galeria">Galeria</a>
+                        </div>
+
+                        <!-- LAYER NR. 3 -->
+                        <div class="tp-caption slider_menu skewfromleft" data-x="right" data-hoffset="-120"
+                            data-y="bottom" data-speed="800" data-start="3000" data-easing="Power4.easeOut"
+                            data-endspeed="300" data-endeasing="Power1.easeIn" data-captionhidden="off"
+                            style="z-index: 6"><a data-scroll href="#contact">Contactenos</a>
+                        </div>
+
+                        <!-- LAYER NR. 4 -->
+                        <div class="tp-caption slider_menu sft" data-x="right" data-y="center" data-speed="800"
+                            data-start="4000" data-easing="Power4.easeOut" data-endspeed="300"
+                            data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6"><a data-scroll
+                                href="#services">Servicios</a>
+                        </div>
+
+                        <!-- LAYER NR. 5 -->
+                        <div class="tp-caption slider_menu lft" data-x="right" data-hoffset="-120" data-y="top"
+                            data-speed="800" data-start="5000" data-easing="Power4.easeOut" data-endspeed="300"
+                            data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6"><a data-scroll
+                                href="#portfolio">Técnologia</a>
+                        </div>
+
+                        <!-- LAYER NR. 6 -->
+                        <div class="tp-caption slider_menu sfr" data-x="left" data-hoffset="120" data-y="top"
+                            data-speed="800" data-start="6000" data-easing="Power4.easeOut" data-endspeed="300"
+                            data-endeasing="Power1.easeIn" data-captionhidden="off" style="z-index: 6"><a data-scroll
+                                href="#aboutus">Nosotros</a>
+                        </div>
+
+
+
+                        <!-- LAYERS -->
+                        <div class="tp-caption small_title customin customout start" data-x="center" data-hoffset="0"
+                            data-y="400"
+                            data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-speed="2200" data-start="6400" data-easing="Back.easeInOut" data-endspeed="300"><a
+                                href="admin/reservation.php" title="" class="btn btn-primary trans-btn">¡Reserva
+                                aquí!</a>
+                        </div>
+                    </li>
+
+
+                </ul>
+                <div class="tp-bannertimer"></div>
+            </div>
+        </div>
+
+    </section><!-- end slider wrapper -->
+
+    <header class="header navbar-fixed-top">
+        <div class="container">
+            <div id="navigation" class="navbar navbar-default" role="navigation">
+                <div class="navbar-inner">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <i class="fa fa-bars fa-2x"></i>
+                        </button>
+                        <a id="brand" class="navbar-brand" data-scroll href="#home"><img src="images/logo3.png"
+                                width="300px" alt="Jollyque"></a>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a data-scroll href="index.html" class="int-collapse-menu">Inicio</a></li>
+                            <li><a data-scroll href="#aboutus" class="int-collapse-menu">Nosotros</a></li>
+                            <li><a data-scroll href="#services" class="int-collapse-menu">Servicios</a></li>
+                            <!-- <li><a data-scroll href="#teammembers" class="int-collapse-menu">Promiciones</a></li>-->
+                            <li><a data-scroll href="#portfolio" class="int-collapse-menu">Tecnologia</a></li>
+                            <li><a href="#galeria" class="int-collapse-menu">Staff de Medicos</a></li>
+                            <li><a data-scroll href="#contact" class="int-collapse-menu">Contactenos</a></li>
+
+                            <li><a target="_blank" style="color:red;font-weight: bold;" data-scroll
+                                    href="./pages/lista-angular.html" class="int-collapse-menu">Covid19</a></li>
+
+
+                            <li>
+                                <div class="social pull-right">
+                                    <span><a title="Twitter" href="#"><i class="fa fa-twitter"></i></a></span>
+                                    <span><a title="Facebook" href="#"><i class="fa fa-facebook"></i></a></span>
+                                    <span><a title="Google Plus" href="#"><i class="fa fa-google-plus"></i></a></span>
+                                </div><!-- end social -->
+                            </li>
+
+                        </ul>
+
+                    </div><!-- end navbar-collapse collapse -->
+                </div><!-- nav -->
+            </div><!-- end navigation -->
+        </div><!-- end container -->
+    </header><!-- end header -->
+
+    <section id="aboutus" class="white-wrapper">
+        <div class="container">
+            <div class="general-title text-center wow fadeInDown">
+                <h1>BIENVENIDOS A LA CLINICA UNIVERCITARIA</h1>
+                <hr class="jt">
+            </div><!-- end general title -->
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="widget wow bounceInUp">
+                    <i class="fa fa-magic fa-3x"></i>
+                    <div class="title">
+                        <h2>CLINICA UNIVERCITARIA</h2>
+                    </div>
+                    <p>Bienvenidos a la clinica Univercitaria UCH en la ciudad de Lima, un centro seguro y confiable,
+                        tenemos la mas actualizada tecnologia de medicina que te ayudaran a tu recuperacion, Médicos de
+                        primer nivel y los tecnólogos médicos más especializados, forman parte del staff de la clinica,
+                        sido capacitados en las más modernas aplicaciones que existen en el sector salud.</p>
+                    <div class="about_icons text-center">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="service-icon">
+                                <div class="dm-icon-effect-1">
+                                    <a href="#" class=""> <i
+                                            class="hovicon effect-1 sub-a fa fa-share-square-o fa-2x"></i> </a>
+                                </div><!-- end dm-icon-effect-1 -->
+                                <div class="title">
+                                    <h3>Documentatación Legal</h3>
+                                </div>
+                            </div><!-- end service-icon -->
+                        </div><!-- end col-gl4 -->
+                    </div>
+                </div><!-- end widget -->
+            </div><!-- end col-lg-6 -->
+
+
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="widget wow bounceInUp">
+                    <i class="fa fa-trophy fa-3x"></i>
+                    <div class="title">
+                        <h2>Porque la Clinica Univercitaria es la mejor?</h2>
+                    </div>
+                    <p>Clinica segura, cómodo y siempre limpio, y siendo la mejor obcion para los pacientes que desean
+                        una pronto recuperacion y tambien una atencion de primera.</p>
+                    <p>Disponemos de confortables habitaciones equipadas con la mas actualizada tecnologia, previniendo
+                        cualquier tipo de complicaciones.</p>
+                    <div class="about_icons text-center">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="service-icon">
+                                <div class="dm-icon-effect-1">
+                                    <a href="#" class=""> <i class="hovicon effect-1 sub-a fa fa-lightbulb-o fa-2x"></i>
+                                    </a>
+                                </div><!-- end dm-icon-effect-1 -->
+                                <div class="title">
+                                    <h3>Medicos Especializados</h3>
+                                </div>
+                            </div><!-- end service-icon -->
+                        </div><!-- end col-gl4 -->
+
+
+
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="service-icon">
+                                <div class="dm-icon-effect-1">
+                                    <a href="#" class=""> <i class="hovicon effect-1 sub-a fa fa-headphones fa-2x"></i>
+                                    </a>
+                                </div><!-- end dm-icon-effect-1 -->
+                                <div class="title">
+                                    <h3>Tecnologia Medica</h3>
+                                </div>
+                            </div><!-- end service-icon -->
+                        </div><!-- end col-gl4 -->
+                    </div><!-- about_icons -->
+                </div><!-- end widget -->
+            </div><!-- end col-lg-6 -->
+
+            <div class="clearfix"></div>
+
+            <div class="general-title text-center wow fadeInDown">
+                <h1>¿POR QUE ESCOGER A LA CLINICA?</h1>
+            </div><!-- end general title -->
+
+            <div class="general_row">
+                <div id="features" class="tabbable">
+                    <ul class="nav nav-tabs">
+                        <li class="active dm-icon-effect-1"><a href="#tab1" data-toggle="tab">01 Historia</a></li>
+                        <li class="dm-icon-effect-1"><a href="#tab2" data-toggle="tab">02 Misión</a></li>
+                        <li class="dm-icon-effect-1"><a href="#tab3" data-toggle="tab">03 Visión</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="tab1">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="about_section">
+                                    <div class="entry">
+                                        <img src="demos/about_04.jpg" class="img-top img-responsive" alt="">
+                                        <div class="magnifier">
+                                            <div class="buttons">
+                                                <a class="sf" rel="bookmark" href="#"><span
+                                                        class="fa fa-facebook"></span></a>
+                                                <a class="st" rel="bookmark" href="#"><span
+                                                        class="fa fa-twitter"></span></a>
+                                                <a class="sg" rel="bookmark" href="#"><span
+                                                        class="fa fa-google-plus"></span></a>
+                                            </div>
+                                        </div><!-- end magnifier -->
+                                    </div><!-- end entry -->
+                                </div><!-- end about_section -->
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="title">
+                                    <h3>CONOCE MÁS SOBRE LA CLINICA UNIVERCITARIA</h3>
+                                </div>
+                                <p>El 10 de octubre de 2012 nace la Clínica univercitaria dedicada desde entonces a
+                                    brindar servicios de salud de manera oportuna, segura y confiable, y orientada a la
+                                    prevención, diagnóstico y tratamiento, con el fin de mantener y mejorar la salud de
+                                    nuestros pacientes.</p>
+
+                                <p>Ofrecemos servicios de salud basados en un Sistema de Gestión de Calidad constituído
+                                    por un personal competente, un equipamiento de vanguardia y gestionando los riesgos
+                                    con responsabilidad social. Estos servicios son accesibles a los diferentes sectores
+                                    socio-económicos de la población, creando experiencias positivas en la vida de
+                                    nuestros pacientes.</p>
+
+                                <div class="jtbutton">
+                                    <a href="#"><span data-hover="Our Story">Haz tu Reserva</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tab2">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="about_section">
+                                    <div class="entry">
+                                        <img src="demos/about_02.jpg" class="img-top img-responsive" alt="">
+                                        <div class="magnifier">
+                                            <div class="buttons">
+                                                <a class="sf" rel="bookmark" href="#"><span
+                                                        class="fa fa-facebook"></span></a>
+                                                <a class="st" rel="bookmark" href="#"><span
+                                                        class="fa fa-twitter"></span></a>
+                                                <a class="sg" rel="bookmark" href="#"><span
+                                                        class="fa fa-google-plus"></span></a>
+                                            </div>
+                                        </div><!-- end magnifier -->
+                                    </div><!-- end entry -->
+                                </div><!-- end about_section -->
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="title">
+                                    <h3>Nuestra Calidad estan en nuestros pacientes</h3>
+                                </div>
+                                <p>Ofrecer un servicio de calidad y excelencia brindando la mejor atencion al paciente,
+                                    seguridad a través de nuestro distinguido staff de profecionales, superando así las
+                                    expectativas del cliente creando experiencias inolvidables.</p>
+
+                                <br>
+                                <div class="jtbutton">
+                                    <a href="#"><span data-hover="Our Mission">Leer Mas</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tab3">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="about_section">
+                                    <div class="entry">
+                                        <img src="demos/about_03.jpg" class="img-top img-responsive" alt="">
+                                        <div class="magnifier">
+                                            <div class="buttons">
+                                                <a class="sf" rel="bookmark" href="#"><span
+                                                        class="fa fa-facebook"></span></a>
+                                                <a class="st" rel="bookmark" href="#"><span
+                                                        class="fa fa-twitter"></span></a>
+                                                <a class="sg" rel="bookmark" href="#"><span
+                                                        class="fa fa-google-plus"></span></a>
+                                            </div>
+                                        </div><!-- end magnifier -->
+                                    </div><!-- end entry -->
+                                </div><!-- end about_section -->
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="title">
+                                    <h3>Ser Los Mejores en Nuestro Rubro</h3>
+                                </div>
+                                <p>Crear y sostener un sistema integral de salud privada, que ofrezca un espacio de
+                                    crecimiento y desarrollo profesional enfocado en la excelencia y calidez en la
+                                    asistencia al paciente y su familia.Ser una Organización Modelo en Gestión y
+                                    Asistencia en el cuidado de la Salud de Tierra del Fuego</p>
+
+                                <br>
+                                <div class="jtbutton">
+                                    <a href="#"><span data-hover="Leer Mas...">Leer Mas...</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- end tab-content -->
+                </div><!-- end tabbable -->
+            </div><!-- end general_row -->
+        </div><!-- end container -->
+    </section><!-- end white wrapper -->
+
+    <section id="services" class="parallax" style="background-image: url('demos/parallaxbg_10.jpg');"
+        data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
+        <div class="overlay">
+            <div class="container">
+                <div class="message wow bounceIn text-center">
+                    <h1>PARA UNA <span>MEJOR </span> ATENION</h1>
+                    <p class="lead">Cada ves mas tenemos Clientes Felices con el servicio.</p>
+                    <div class="btn-wrapper">
+                        <div class="jtbutton">
+                            <a data-scroll href="#contact" title=""><span
+                                    data-hover="Contactenos">Contactenos</span></a>
+                        </div>
+                    </div>
+                </div><!-- end message -->
+            </div><!-- end container -->
+        </div><!-- end overlay -->
+    </section><!-- end transparent-bg -->
+
+    <section id="#" class="white-wrapper">
+        <div class="container">
+            <div class="general-title text-center wow fadeInDown">
+                <h1>SERVICIOS PARA NUESTROS CLIENTES</h1>
+                <hr class="jt">
+            </div><!-- end general title -->
+
+            <div class="general_row">
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="widget wow bounceInUp">
+                        <div class="title">
+                            <h2>Servicios </h2>
+                        </div>
+                        <p>Dentro de los diversos servicios que ofrecemos, resaltan nuestras confortables habitaciones,
+                            nuestras hermosas SORPRESAS ROMÁNTICAS, Cochera y Restaurante las 24 horas; además de la
+                            preocupación por cada uno de nuestro personal en atenderlo de la mejor manera posible, así
+                            como también de nuestros rigurosos procesos que garantizan la mejor experiencia de su
+                            estancia aquí.</p>
+                        <div id="skills" class="skills_bar">
+                            <small>Cardiologia</small>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 50%;" data-toggle="tooltip" data-placement="right"
+                                    title="70%">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div><!-- end progress -->
+
+                            <small>Centro Quirurgico</small>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 50%;" data-toggle="tooltip" data-placement="right"
+                                    title="70%">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div><!-- end progress -->
+
+                            <small>Cirugia Genral</small>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 50%;" data-toggle="tooltip" data-placement="right"
+                                    title="70%">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div><!-- end progress -->
+
+                            <small>Dermatologia</small>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 10%;" data-toggle="tooltip" data-placement="right"
+                                    title="80%">
+                                    <span class="sr-only">50% Complete</span>
+                                </div>
+                            </div><!-- end progress -->
+
+                            <small>Endocrinologia</small>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 10%;" data-toggle="tooltip" data-placement="right"
+                                    title="80%">
+                                    <span class="sr-only">50% Complete</span>
+                                </div>
+                            </div><!-- end progress -->
+
+                            <small>Emergencia</small>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 50%;" data-toggle="tooltip" data-placement="right"
+                                    title="70%">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div><!-- end progress -->
+
+                            <small>Ginecologia</small>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 10%;" data-toggle="tooltip" data-placement="right"
+                                    title="80%">
+                                    <span class="sr-only">70% Complete</span>
+                                </div>
+                            </div><!-- end progress -->
+
+                            <small>Neuroligia</small>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 20%;" data-toggle="tooltip" data-placement="right"
+                                    title="80%">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div><!-- end progress -->
+                            <small>Nutricion</small>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 10%;" data-toggle="tooltip" data-placement="right"
+                                    title="80%">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div><!-- end progress -->
+
+                            <small>Psicologia</small>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 15%;" data-toggle="tooltip" data-placement="right"
+                                    title="80%">
+                                    <span class="sr-only">50% Complete</span>
+                                </div>
+                            </div><!-- end progress -->
+
+
+                            <small>Psiquiatria</small>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 10%;" data-toggle="tooltip" data-placement="right"
+                                    title="80%">
+                                    <span class="sr-only">40% Complete</span>
+                                </div>
+                            </div><!-- end progress -->
+
+                            <small>Reumatologia</small>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 10%;" data-toggle="tooltip" data-placement="right"
+                                    title="80%">
+                                    <span class="sr-only">50% Complete</span>
+                                </div>
+                            </div><!-- end progress -->
+
+                            <small>Odontología</small>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 10%;" data-toggle="tooltip" data-placement="right"
+                                    title="80%">
+                                    <span class="sr-only">40% Complete</span>
+                                </div>
+                            </div><!-- end progress -->
+
+                            <small>Urologia</small>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 10%;" data-toggle="tooltip" data-placement="right"
+                                    title="80%">
+                                    <span class="sr-only">80% Complete</span>
+                                </div>
+                            </div><!-- end progress -->
+                        </div><!-- end skills_bar -->
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <br>
+                    <br>
+                    <div class="widget wow bounceInUp">
+                        <div class="entry">
+                            <img src="demos/about_02.jpg" class="img-top img-responsive" alt="">
+                            <div class="magnifier">
+                                <div class="buttons">
+                                    <a class="sf" rel="bookmark" href="#"><span class="fa fa-facebook"></span></a>
+                                    <a class="st" rel="bookmark" href="#"><span class="fa fa-twitter"></span></a>
+                                    <a class="sg" rel="bookmark" href="#"><span class="fa fa-google-plus"></span></a>
+                                </div>
+                            </div><!-- end magnifier -->
+                        </div><!-- end entry -->
+                    </div><!-- end about_section -->
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <br>
+                    <br>
+                    <div class="widget wow bounceInUp">
+                        <div class="entry">
+                            <img src="demos/about_03.jpg" class="img-top img-responsive" alt="">
+                            <div class="magnifier">
+                                <div class="buttons">
+                                    <a class="sf" rel="bookmark" href="#"><span class="fa fa-facebook"></span></a>
+                                    <a class="st" rel="bookmark" href="#"><span class="fa fa-twitter"></span></a>
+                                    <a class="sg" rel="bookmark" href="#"><span class="fa fa-google-plus"></span></a>
+                                </div>
+                            </div><!-- end magnifier -->
+                        </div><!-- end entry -->
+                    </div><!-- end about_section -->
+                </div>
+                <div class="col-lg-3 first">
+                    <div class="servicebox wow flipInY">
+                        <h1><i class="fa fa-bars fa-2x"></i></h1>
+                        <h3>Servicio de Hospitalizacion</h3>
+                        <p>Consiéntase durante el día pidiendo el servicio de alimentos a su habitación, nuestro
+                            personal le atenderá con gusto para que usted se sienta como en casa. Servicio las 24 horas.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="servicebox wow flipInY">
+                        <h1><i class="fa fa-eye fa-2x"></i></h1>
+                        <h3>Personal</h3>
+                        <p>La Clínica La Luz cuenta con un personal altamente calificado dispuesto a atenderlo de la
+                            mejor manera y darle solución a sus problemas de salud.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="servicebox wow flipInY">
+                        <h1><i class="fa fa-html5 fa-2x"></i></h1>
+                        <h3>Atencion</h3>
+                        <p>Contamos con un servicio de atención de emergencias y traslado en ambulancias totalmente
+                            preparado para atenderlo las 24 hrs. del día.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 first">
+                    <div class="servicebox wow flipInY">
+                        <h1><i class="fa fa-thumbs-o-up fa-2x"></i></h1>
+                        <h3>Estacionamiento</h3>
+                        <p>Nuestra Clinica cuenta con su propio lugar de estacionamiento amplio donde podrá dejar a
+                            nuestro cuidado su vehículo, podrá estar estacionado el tiempo de la atencion del paciente.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+    <section id="portfolio" class="parallax" style="background-image: url('demos/parallaxbg_12.jpg');"
+        data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
+        <div class="overlay">
+            <div class="container">
+                <div class="general-title text-center wow fadeInDown">
+                    <h1>Contamos con los mejore tecnologina para la recuperacion y tramaniento del paciente</h1>
+                    <div class="custom-icon quote-icon"><i class="fa fa-quote-right"></i></div>
+                </div><!-- end general title -->
+                <div class="testimonial-widget">
+                    <div id="owl-testimonial" class="owl-carousel text-center">
+                        <div class="testimonial">
+                            <p class="lead">Contamos con un servicio de atención de emergencias y traslado en
+                                ambulancias totalmente preparado para atenderlo las 24 hrs. del día.<br>
+                            <h3>SILVIA HIJAZO LORIENTE </h3>
+                        </div><!-- end tweet -->
+                        <div class="testimonial">
+                            <p class="lead">Tenemos las mejores promociones y ofertas para solucionar tus problemas de
+                                salud. ¡Entérate ahora mismo!<br>
+                            <h3>ROCIO LAURA LOPEZ</h3>
+                        </div><!-- end tweet -->
+                        <div class="testimonial">
+                            <p class="lead">La Clínica La Luz cuenta con un personal altamente calificado dispuesto a
+                                atenderlo de la mejor manera y darle solución a sus problemas de salud. <br>
+                            <h3>MARIA JESÚS CANDOMEQUE CASALO</h3>
+                        </div><!-- end tweet -->
+                    </div><!-- end owl-testimonial -->
+                </div><!-- end testimonial widget -->
+            </div><!-- end container -->
+        </div><!-- end overlay -->
+    </section><!-- end transparent-bg -->
+
+
+
+    <section id="#" class="white-wrapper">
+        <div class="container">
+            <div class="general-title text-center wow fadeInDown">
+                <h1>TECNOLOGIA</h1>
+                <hr class="jt">
+            </div><!-- end general title -->
+
+            <div id="shop_carousel">
+                <div class="col-lg-12">
+                    <div class="shop_item">
+                        <div class="entry">
+                            <img src="demos/hab1.jpg" alt="" class="img-responsive">
+                            <div class="magnifier">
+                                <div class="buttons">
+                                    <a class="st" rel="bookmark" href="cart.html">RESERVA</a>
+                                </div><!-- end buttons -->
+                            </div><!-- end magnifier -->
+                        </div><!-- end entry -->
+                        <div class="shop_desc">
+                            <div class="shop_title pull-left">
+                                <a href="single-shop.html"><span>RESONANCIA MAGNÉTICA</span></a>
+                                <span class="cats"><a href="#">La RESONANCIA MAGNÉTICA es una forma no invasiva en que
+                                        el médico examina los órganos, los tejidos y el sistema esquelético. Produce
+                                        imágenes de alta resolución del interior del cuerpo que ayudan a diagnosticar
+                                        diversos problemas.</a></span>
+                            </div>
+
+                        </div><!-- end shop_desc -->
+                    </div><!-- end item -->
+                </div><!-- end col-lg-12 -->
+
+                <div class="col-lg-12">
+                    <div class="shop_item">
+                        <div class="entry">
+                            <img src="demos/hab2.jpg" alt="" class="img-responsive">
+                            <div class="magnifier">
+                                <div class="buttons">
+                                    <a class="st" rel="bookmark" href="cart.html">RESERVAR</a>
+                                </div><!-- end buttons -->
+                            </div><!-- end magnifier -->
+                        </div><!-- end entry -->
+                        <div class="shop_desc">
+                            <div class="shop_title pull-left">
+                                <a href="single-shop.html"><span>Luces quirúrgicas</span></a>
+                                <span class="cats"><a href="#"> Están diseñadas para facilitar la iluminación durante
+                                        las cirugías y asegurar condiciones de iluminación adecuadas. De hecho, este es
+                                        un equipo médico obligatorio que se requiere en todos los entornos
+                                        quirúrgicos</a></span>
+                            </div>
+
+                        </div><!-- end shop_desc -->
+                    </div><!-- end item -->
+                </div><!-- end col-lg-12 -->
+
+                <div class="col-lg-12">
+                    <div class="shop_item">
+                        <div class="entry">
+                            <img src="demos/hab3.jpg" alt="" class="img-responsive">
+                            <div class="magnifier">
+                                <div class="buttons">
+                                    <a class="st" rel="bookmark" href="cart.html">RESERVAR</a>
+                                </div><!-- end buttons -->
+                            </div><!-- end magnifier -->
+                        </div><!-- end entry -->
+                        <div class="shop_desc">
+                            <div class="shop_title pull-left">
+                                <a href="single-shop.html"><span>Sistemas de estrés</span></a>
+                                <span class="cats"><a href="#">Utilizados en Cardiología, ayudan a determinar la
+                                        respuesta del cuerpo y probarlo más allá del nivel normal. Un sistema de estrés
+                                        expone la condición de salud que no es observable en condiciones
+                                        normales.a></span>
+                            </div>
+
+                        </div><!-- end shop_desc -->
+                    </div><!-- end item -->
+                </div><!-- end col-lg-12 -->
+
+                <div class="col-lg-12">
+                    <div class="shop_item">
+                        <div class="entry">
+                            <img src="demos/hab4.jpg" alt="" class="img-responsive">
+                            <div class="magnifier">
+                                <div class="buttons">
+                                    <a class="st" rel="bookmark" href="cart.html">RESERVAR</a>
+                                </div><!-- end buttons -->
+                            </div><!-- end magnifier -->
+                        </div><!-- end entry -->
+                        <div class="shop_desc">
+                            <div class="shop_title pull-left">
+                                <a href="single-shop.html"><span>Esterilizadores</span></a>
+                                <span class="cats"><a href="#">El procedimiento de esterilización realizado por
+                                        esterilizadores acaba con todos los tipos de microbios, incluidos virus, hongos,
+                                        bacterias, esporas y otros. Estos microbianos están presentes en diversos
+                                        artículos médicos y herramientas quirúrgicas..</a></span>
+                            </div>
+
+                        </div><!-- end shop_desc -->
+                    </div><!-- end item -->
+                </div><!-- end col-lg-12 -->
+
+                <div class="col-lg-12">
+                    <div class="shop_item">
+                        <div class="entry">
+                            <img src="demos/hab5.jpg" alt="" class="img-responsive">
+                            <div class="magnifier">
+                                <div class="buttons">
+                                    <a class="st" rel="bookmark" href="cart.html">RESERVAR</a>
+                                </div><!-- end buttons -->
+                            </div><!-- end magnifier -->
+                        </div><!-- end entry -->
+                        <div class="shop_desc">
+                            <div class="shop_title pull-left">
+                                <a href="single-shop.html"><span>Unidades electroquirúrgicas</span></a>
+                                <span class="cats"><a href="#"> Se usan en cirugías para coagular, cortar o alterar
+                                        tejidos. Esto ayuda a restringir el flujo sanguíneo en un área corporal
+                                        específica y mejora la visibilidad durante un procedimiento
+                                        quirúrgico</a></span>
+                            </div>
+
+                        </div><!-- end shop_desc -->
+                    </div><!-- end item -->
+                </div><!-- end col-lg-12 -->
+
+                <div class="col-lg-12">
+                    <div class="shop_item">
+                        <div class="entry">
+                            <img src="demos/hab6.jpg" alt="" class="img-responsive">
+                            <div class="magnifier">
+                                <div class="buttons">
+                                    <a class="st" rel="bookmark" href="cart.html">RESERVAR</a>
+                                </div><!-- end buttons -->
+                            </div><!-- end magnifier -->
+                        </div><!-- end entry -->
+                        <div class="shop_desc">
+                            <div class="shop_title pull-left">
+                                <a href="single-shop.html"><span>Máquina de ECG</span></a>
+                                <span class="cats"><a href="#">Este equipo registra la actividad eléctrica del corazón
+                                        durante un período de tiempo lo cual ayuda en la evaluación instantánea de la
+                                        frecuencia cardíaca y para la identificación rápida de posibles
+                                        anomalías..</a></span>
+                            </div>
+
+                        </div><!-- end shop_desc -->
+                    </div><!-- end item -->
+                </div><!-- end col-lg-12 -->
+
+
+            </div><!-- end shop_carousel -->
+        </div><!-- end container -->
+    </section>
+    <section id="galeria" class="white-wrapper">
+        <div class="container">
+            <div class="general-title text-center wow fadeInDown">
+                <h1>STAFF DE MEDICOS</h1>
+                <hr class="jt">
+            </div><!-- end general title -->
+            <div class="text-center clearfix">
+
+            </div><!-- end text-center    -->
+        </div><!-- end container -->
+
+
+        <section class="portfolio-w3ls" id="gallery">
+
+            <div class="col-md-3 gallery-grid gallery1">
+                <a href="images/g11.png" class="swipebox"><img src="images/g11.png" class="img-responsive" alt="/">
+                    <div class="textbox">
+                        <h4>
+                        </h4>
+                        <p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 gallery-grid gallery1">
+                <a href="images/g12.png" class="swipebox"><img src="images/g12.png" class="img-responsive" alt="/">
+                    <div class="textbox">
+                        <h4>
+                        </h4>
+                        <p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 gallery-grid gallery1">
+                <a href="images/g13.png" class="swipebox"><img src="images/g13.png" class="img-responsive" alt="/">
+                    <div class="textbox">
+                        <h4>
+                        </h4>
+                        <p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 gallery-grid gallery1">
+                <a href="images/g14.png" class="swipebox"><img src="images/g14.png" class="img-responsive" alt="/">
+                    <div class="textbox">
+                        <h4>
+                        </h4>
+                        <p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 gallery-grid gallery1">
+                <a href="images/g15.png" class="swipebox"><img src="images/g15.png" class="img-responsive" alt="/">
+                    <div class="textbox">
+                        <h4>
+                        </h4>
+                        <p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 gallery-grid gallery1">
+                <a href="images/g16.png" class="swipebox"><img src="images/g16.png" class="img-responsive" alt="/">
+                    <div class="textbox">
+                        <h4>
+                        </h4>
+                        <p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 gallery-grid gallery1">
+                <a href="images/g17.png" class="swipebox"><img src="images/g17.png" class="img-responsive" alt="/">
+                    <div class="textbox">
+                        <h4>
+                        </h4>
+                        <p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 gallery-grid gallery1">
+                <a href="images/g18.png" class="swipebox"><img src="images/g18.png" class="img-responsive" alt="/">
+                    <div class="textbox">
+                        <h4>
+                        </h4>
+                        <p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 gallery-grid gallery1">
+                <a href="images/g19.png" class="swipebox"><img src="images/g19.png" class="img-responsive" alt="/">
+                    <div class="textbox">
+                        <h4>
+                        </h4>
+                        <p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 gallery-grid gallery1">
+                <a href="images/g20.png" class="swipebox"><img src="images/g20.png" class="img-responsive" alt="/">
+                    <div class="textbox">
+                        <h4>
+                        </h4>
+                        <p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 gallery-grid gallery1">
+                <a href="images/g21.png" class="swipebox"><img src="images/g21.png" class="img-responsive" alt="/">
+                    <div class="textbox">
+                        <h4>
+                        </h4>
+                        <p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 gallery-grid gallery1">
+                <a href="images/g22.png" class="swipebox"><img src="images/g22.png" class="img-responsive" alt="/">
+                    <div class="textbox">
+                        <h4>
+                        </h4>
+                        <p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+                    </div>
+                </a>
+            </div>
+            <div class="clearfix"> </div>
+        </section>
+
+
+
+        <div class="clearfix"></div><br><br>
+
+        <div class="btn-wrapper">
+            <div class="jtbutton">
+                <a href="portfolio.html" title=""><span data-hover="ESTAS VIENDO PACIENTES RECUPERADOS ">VER TODOS LOS
+                        PACIENTES RECUPERADOS</span></a>
+            </div>
+        </div>
+    </section><!-- end white wrapper -->
+
+    <section id="contact" class="parallax" style="background-image: url('demos/parallaxbg_05.jpg');"
+        data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
+        <div class="overlay">
+            <div class="container">
+                <div class="general-title text-center wow fadeInDown">
+                    <h1>Diagnostico Inicial</h1>
+
+                    <p class="lead">¡Usted Puede Saber su <span>IMC </span>para adultos: para adultos !</p>
+                    <form id="newsletter">
+
+                        <form action=" class=" form-group">
+                            <input type="number" ng-model="altura" class="form-control" value=""
+                                placeholder="Ingresar su Estatura aquí.."><br>
+                            <input type="number" ng-model="peso" class="form-control" value=""
+                                placeholder="Ingresar su Peso aquí..."> <br>
+
+                        </form>
+
+                        <div class="btn-wrapper">
+
+                            <div class="jtbutton">
+                                <a href="#contact" title="" ng-click="calculaImc()"><span
+                                        data-hover="CALCULAR">CALCULAR</span></a>
+                                <button ng-click="calculaImc()">Calcular IMC</button>
+
+                            </div>
+                        </div>
+                    </form>
+
+                    <script>
+                        angular.module('imcApp', [])
+                            .controller('ImcController', function ($scope) {
+                                $scope.calculaImc = function () {
+                                    $scope.imc = $scope.peso / ($scope.altura * $scope.altura);
+                                    if ($scope.imc < 18.5) {
+                                        $scope.situacao = 'Bajo de peso';
+                                    } else if ($scope.imc >= 18.5 && $scope.imc < 30) {
+                                        $scope.situacao = 'Peso normal';
+                                    } else if ($scope.imc >= 30) {
+                                        $scope.situacao = 'Obesidad';
+                                    }
+                                    $scope.exibeResultados = true;
+                                }
+                            });
+                    </script>
+
+
+                    <table id="myTabla" class="table table-striped table-bordered" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <p class="lead">Estatura</p>
+                                </th>
+                                <th>
+                                    <p class="lead">Peso</p>
+                                </th>
+                                <th>
+                                    <p class="lead">IMC</p>
+                                </th>
+                                <th>
+                                    <p class="lead">Situación</p>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>{{altura}}</td>
+                                <td>{{peso}}</td>
+                                <div ng-show="exibeResultados">
+                                    <td>{{ imc | number }}</td>
+                                    <td>{{ situacao }}</td>
+                                </div>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div><!-- end general title -->
+            </div><!-- end container -->
+        </div><!-- end overlay -->
+    </section><!-- end transparent-bg -->
+
+
+    <section id="contact" class="parallax" style="background-image: url('demos/parallaxbg_05.jpg');"
+        data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
+        <div class="overlay">
+            <div class="container">
+                <div class="general-title text-center wow fadeInDown">
+                    <h1>HOJA INFORMATIVA</h1>
+                    <div class="custom-icon"><i class="fa fa-envelope-o"></i></div>
+                    <p class="lead">¡Contactenos ahora a nuestro <span>boletín </span>y será uno de los primeros en
+                        conocer la última oferta!</p>
+                    <form id="newsletter">
+
+                        <form action="">
+                            <input class="form-control" value="" placeholder="Ingrese su Nombre y Apellido..."><br>
+                            <input class="form-control" value="" placeholder="Ingresa tu Email aquí..."> <br>
+                            <textarea class="form-control" value="" placeholder="Dejar tu Mensaje aqui..."></textarea>
+                        </form>
+                        <div class="btn-wrapper">
+
+                            <div class="jtbutton">
+                                <a href="" title=""><span data-hover="CONTACTENOS YA">CONTACTENOS YA</span></a>
+                            </div>
+                        </div>
+                    </form>
+                </div><!-- end general title -->
+            </div><!-- end container -->
+        </div><!-- end overlay -->
+    </section><!-- end transparent-bg -->
+
+
+
+
+    <section id="#" class="white-wrapper">
+        <div class="container">
+            <div class="general-title text-center wow fadeInDown">
+                <h1>Conectate con nosotros</h1>
+                <hr class="jt">
+                <h3> Si tiene alguna duda o pregunta sobre nuestro servicio de habitaciones no dude en contactarte con
+                    nosotros, estaremos pendientes a su mensaje para responderle.</h3>
+
+                <div class="contact-agileits">
+
+                    <div class="contact_details">
+                        <div class="col-lg-4 col-sm-4 col-md-6 col-xs-12">
+                            <div class="miniboxes text-center">
+                                <div class="service-icon wow swing">
+                                    <div class="dm-icon-effect-1">
+                                        <a href="#" class=""> <i
+                                                class="hovicon effect-1 sub-a fa fa-map-marker fa-2x"></i> </a>
+                                    </div><!-- end dm-icon-effect-1 -->
+                                    <div class="title">
+                                        <h3>Ubicación</h3>
+                                    </div>
+                                    <p>Av. Las Palmeras 5201, Los Olivos 15304<br>
+                                        Ref. Colegio Bartolome Herrera.</p>
+                                </div><!-- end service-icon -->
+                            </div><!-- end miniboxes -->
+                        </div><!-- end col-lg-4 -->
+
+                        <div class="col-lg-4 col-sm-4 col-md-6 col-xs-12">
+                            <div class="miniboxes text-center">
+                                <div class="service-icon wow swing">
+                                    <div class="dm-icon-effect-1">
+                                        <a href="#" class=""> <i class="hovicon effect-1 sub-a fa fa-phone fa-2x"></i>
+                                        </a>
+                                    </div><!-- end dm-icon-effect-1 -->
+                                    <div class="title">
+                                        <h3>Número Telefonico</h3>
+                                    </div>
+                                    <p><strong>Fijo:</strong> (01) 994 653 030<br>
+
+                                </div><!-- end service-icon -->
+                            </div><!-- end miniboxes -->
+                        </div><!-- end col-lg-4 -->
+
+                        <div class="col-lg-4 col-sm-4 col-md-6 col-xs-12">
+                            <div class="miniboxes text-center">
+                                <div class="service-icon wow swing">
+                                    <div class="dm-icon-effect-1">
+                                        <a href="#" class=""> <i
+                                                class="hovicon effect-1 sub-a fa fa-envelope-o fa-2x"></i> </a>
+                                    </div><!-- end dm-icon-effect-1 -->
+                                    <div class="title">
+                                        <h3>Correo</h3>
+                                    </div>
+                                    <p><strong>Email:</strong> jollythemes@gmail.com<br>
+                                        <strong>Facebook:</strong> @hslaspalmeras
+                                    </p>
+                                </div><!-- end service-icon -->
+                            </div><!-- end miniboxes -->
+                        </div><!-- end col-lg-4 -->
+                    </div><!-- end contact_details -->
+
+                </div>
+
+
+
+                <div class="clearfix"></div>
+                <div id="message"></div>
+
+
+            </div><!-- end general title -->
+
+        </div><!-- end container -->
+    </section>
+    <section class="map-wrapper">
+        <div id="map"><iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3903.185616742415!2d-77.06754238561928!3d-11.961647143578679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105ce2faecca3bb%3A0x58e2cca241a2e705!2sUNIVERSIDAD%20DE%20CIENCIAS%20Y%20HUMANIDADES!5e0!3m2!1ses!2spe!4v1600274223874!5m2!1ses!2spe"
+                width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe></div>
+    </section><!-- end map wrapper -->
+
+    <footer id="seven-parallax" class="parallax" style="background-image: url('demos/parallaxbg_010.png');"
+        data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
+        <div class="overlay">
+            <div class="container">
+                <div class="general-title wow bounceIn text-center">
+                    <h1>SIGUENOS</h1>
+                </div><!-- Finalizar Titulo General-->
+                <div class="social">
+                    <span><a title="Twitter" href="#"><i class="fa fa-twitter fa-2x"></i></a></span>
+                    <span><a title="Facebook" href="#"><i class="fa fa-facebook"></i></a></span>
+                    <span><a title="Google Plus" href="#"><i class="fa fa-google-plus"></i></a></span>
+                    <span><a title="Skype" href="#"><i class="fa fa-skype"></i></a></span>
+
+                </div><!-- Final Redes Sociales -->
+                <div class="back-to-top">
+                    <span><span class="dmtop"><i class="fa fa-angle-double-up"></i></span></span>
+                </div>
+            </div><!-- end container -->
+            <svg id="bigTriangleColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="80"
+                viewBox="0 0 100 340" preserveAspectRatio="none">
+                <path d="M0 265 L50 0 L100 265 Z" />
+            </svg>
+        </div><!-- end overlay -->
+    </footer><!-- end footer -->
+
+    <section class="copyright-wrapper">
+        <div class="container">
+            <div class="copyrights">
+                <p>© 2020 Todos los derechos reservados – Clinica Universitaria</p>
+            </div>
+        </div><!-- end container -->
+    </section><!-- end copyright wrapper -->
+
+    <script src="js/all.js"></script>
+    <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript">
+        var revapi;
+        jQuery(document).ready(function () {
+            revapi = jQuery('.tp-banner').revolution(
+                {
+                    delay: 9000,
+                    startwidth: 1170,
+                    startheight: 500,
+                    hideThumbs: 10,
+                    fullWidth: "off",
+                    fullScreen: "on",
+                    fullScreenOffsetContainer: ""
+                });
+        });
+
+        $(window).load(function () {
+            $('.flexslider').flexslider({
+                animation: "fade",
+                controlNav: false,
+                start: function (slider) {
+                    $('body').removeClass('loading');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

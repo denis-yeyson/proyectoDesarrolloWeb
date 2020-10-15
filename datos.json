@@ -1,0 +1,160 @@
+{
+  "integrantes": [
+    {
+      "pais": "PERÚ",
+      "region": "LIMA METROPOLITANA",
+      "muestras": "1805514",
+      "confirmado": "358786"
+    },
+    {
+      "pais": "PERÚ",
+      "region": "CALLAO",
+      "muestras": "133917",
+      "confirmado": "34880"
+    },
+    {
+      "pais": "PERÚ",
+      "region": "LA LIBERTAD",
+      "muestras": "142100",
+      "confirmado": "30582"
+    },
+    {
+      "pais": "PERÚ",
+      "region": "AREQUIPA",
+      "muestras": "237085",
+      "confirmado": "43058"
+    },
+    {
+      "pais": "PERÚ",
+      "region": "MOQUEGUA",
+      "muestras": "72888",
+      "confirmado": "13700"
+    },
+    {
+      "pais": "PERÚ",
+      "region": "CUSCO",
+      "muestras": "112790",
+      "confirmado": "21312"
+    },
+    {
+      "pais": "PERÚ",
+      "region": "LAMBAYEQUE",
+      "muestras": "110432",
+      "confirmado": "27080"
+    },
+    {
+      "pais": "PERÚ",
+      "region": "PIURA",
+      "muestras": "139914",
+      "confirmado": "36943"
+    },
+    {
+      "pais": "PERÚ",
+      "region": "AMAZONAS",
+      "muestras": "71871",
+      "confirmado": "15665"
+    },
+    {
+      "pais": "PERÚ",
+      "region": "ICA",
+      "muestras": "133673",
+      "confirmado": "28650"
+    },
+    {
+      "pais": "PERÚ",
+      "region": "JUNIN",
+      "muestras": "115331",
+      "confirmado": "20995"
+    },
+    {
+      "pais": "PERÚ",
+      "region": "ANCASH",
+      "muestras": "121222",
+      "confirmado": "24177"
+    },
+    {
+      "pais": "PERÚ",
+      "region": "CAJAMARCA",
+      "muestras": "107670",
+      "confirmado": "20917"
+    },
+    {
+      "pais": "PERÚ",
+      "region": "HUANUCO",
+      "muestras": "81117",
+      "confirmado": "16539"
+    },
+    {
+      "pais": "PERÚ",
+      "region": "APURIMAC",
+      "muestras": "55438",
+      "confirmado": "5138"
+    },
+    {
+      "pais": "PERÚ",
+      "region": "PUNO",
+      "muestras": "79522",
+      "confirmado": "16049"
+    },
+    {
+      "pais": "PERÚ",
+      "region": "TACNA",
+      "muestras": "66160",
+      "confirmado": "12478"
+    },
+    {
+      "pais": "PERÚ",
+      "region": "LORETO",
+      "muestras": "61381",
+      "confirmado": "20408"
+    },
+    {
+      "pais": "PERÚ",
+      "region": "SAN MARTIN",
+      "muestras": "78370",
+      "confirmado": "19443"
+    },
+    {
+      "pais": "PERÚ",
+      "region": "AYACUCHO",
+      "muestras": "59232",
+      "confirmado": "12329"
+    },
+    {
+      "pais": "PERÚ",
+      "region": "HUANCAVELICA",
+      "muestras": "45978",
+      "confirmado": "6968"
+    },
+    {
+      "pais": "PERÚ",
+      "region": "PASCO",
+      "muestras": "38000",
+      "confirmado": "5376"
+    },
+    {
+      "pais": "PERÚ",
+      "region": "TUMBES",
+      "muestras": "32763",
+      "confirmado": "7677"
+    },
+    {
+      "pais": "PERÚ",
+      "region": "UCAYALI",
+      "muestras": "54176",
+      "confirmado": "16931"
+    },
+    {
+      "pais": "PERÚ",
+      "region": "MADRE DE DIOS",
+      "muestras": "36801",
+      "confirmado": "8544"
+    },
+    {
+      "pais": "PERÚ",
+      "region": "LIMA REGIÓN",
+      "muestras": "118606",
+      "confirmado": "29349"
+    }
+  ]
+}
